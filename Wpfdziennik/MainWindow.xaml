@@ -1,0 +1,32 @@
+﻿<Window x:Class="Wpfdziennik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfdziennik"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="481.233" Width="800" Background="Black">
+    <Grid>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="389" Margin="10,35,0,0" VerticalAlignment="Top" Width="190">
+            <ListBox  DisplayMemberPath="" Background="Black" Foreground="White" Name="ListBox1" SelectionChanged="ListBox1_SelectionChanged">
+                
+            </ListBox>
+        </Border>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="25" Margin="10,5,0,0" VerticalAlignment="Top" Width="770">
+
+        </Border>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="389" Margin="205,35,0,0" VerticalAlignment="Top" Width="190">
+            <ListBox Foreground="White" Background="Black" Name="ListBox2" SelectionChanged="ListBox2_SelectionChanged">
+
+            </ListBox>
+        </Border>
+        <Border BorderBrush="White" Background="Black" BorderThickness="1" HorizontalAlignment="Left" Height="389" Margin="400,35,0,0" VerticalAlignment="Top" Width="190">
+            <ListBox Foreground="White" Background="Black" Name="ListBox3" SelectionChanged="ListBox3_SelectionChanged">
+
+            </ListBox>
+        </Border>
+        <TextBox IsEnabled="False" Foreground="White" Background="Black" Name="TB" TextWrapping="Wrap" Text="" Margin="595,35,0,0" TextChanged="TextBox_TextChanged" Height="389" VerticalAlignment="Top" HorizontalAlignment="Left" Width="177"/>
+
+
+    </Grid>
+</Window>
